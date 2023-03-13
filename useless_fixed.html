@@ -134,7 +134,7 @@ body{background:#342e32;
 <feMorphology in="mask" result="dilated" operator="dilate" radius="6"/>
 <feGaussianBlur in="dilated" result="blurred" stdDeviation="15"/>
 <feMerge>
-<feGaussianBlur in="dilated" result="blurred" stdDeviation="15"/>
+<feMergeNode in="blurred"/>	
 <feMergeNode in="SourceGraphic"/>
 </feMerge>
 </filter>
