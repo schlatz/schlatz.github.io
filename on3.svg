@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 466 356">
+<filter id="f">
+<feGaussianBlur stdDeviation="12"/>
+</filter>
+<filter id="e">
+<feGaussianBlur stdDeviation="4"/>
+</filter>
+<linearGradient id="g" gradientUnits="userSpaceOnUse" x1="65" y1="178" x2="401" y2="178">
+<stop offset="0" stop-color="#20171b"/>
+<stop offset=".11" stop-color="#383135"/>
+<stop offset=".22" stop-color="#20171b"/>
+<stop offset=".78" stop-color="#20171b"/>
+<stop offset=".89" stop-color="#383135"/>
+<stop offset="1" stop-color="#20171b"/>
+</linearGradient>
+<linearGradient id="h" gradientUnits="userSpaceOnUse" x1="233" y1="63" x2="233" y2="293">
+<stop offset="0" stop-color="#6d6e71"/>
+<stop offset=".006" stop-color="#66676a"/>
+<stop offset=".016" stop-color="#515254"/>
+<stop offset=".029" stop-color="#101010"/>
+<stop offset=".03"/>
+</linearGradient>
+<linearGradient id="i" gradientUnits="userSpaceOnUse" x1="177.118" y1="32.712" x2="344.882" y2="323.288">
+<stop offset="0" stop-color="#666065"/>
+<stop offset="1" stop-color="#1a1819"/>
+</linearGradient>
+<linearGradient id="l" gradientUnits="userSpaceOnUse" x1="344.882" y1="32.712" x2="177.118" y2="323.288">
+<stop offset="0" stop-color="#666065"/>
+<stop offset="1" stop-color="#1a1819"/>
+</linearGradient>
+<linearGradient id="j" gradientUnits="userSpaceOnUse" x1="125" y1="178" x2="397" y2="178">
+<stop offset="0" stop-color="#5b5558"/>
+<stop offset="1" stop-color="#3b383f"/>
+</linearGradient>
+<linearGradient id="m" gradientUnits="userSpaceOnUse" x1="125" y1="178" x2="397" y2="178">
+<stop offset="0" stop-color="#3b383f"/>
+<stop offset="1" stop-color="#5c5658"/>
+</linearGradient>
+<linearGradient id="b" gradientUnits="userSpaceOnUse" x1="233" x2="233" y2="356">
+<stop offset="0" stop-color="#585254"/>
+<stop offset="1" stop-color="#3b3539"/>
+</linearGradient>
+<defs>
+<path id="a" d="M431 356H35c-19.33 0-35-15.67-35-35V35C0 15.67 15.67 0 35 0h396c19.33 0 35 15.67 35 35v286c0 19.33-15.67 35-35 35z"/>
+</defs>
+<clipPath id="c">
+<use xlink:href="#a" overflow="visible"/>
+</clipPath>
+<linearGradient id="d" gradientUnits="userSpaceOnUse" x1="102.77" y1="-47.564" x2="363.229" y2="403.564">
+<stop offset="0" stop-color="#b3b3b3"/>
+<stop offset=".181" stop-color="#b1b1b1"/>
+<stop offset=".246" stop-color="#abaaab"/>
+<stop offset=".292" stop-color="#a09f9f"/>
+<stop offset=".33" stop-color="#908e8f"/>
+<stop offset=".362" stop-color="#7b7879"/>
+<stop offset=".39" stop-color="#625d60"/>
+<stop offset=".4" stop-color="#575154"/>
+<stop offset=".52"/>
+</linearGradient>
+<filter id="k" x="-5000%" y="-5000%" width="10000%" height="10000%">
+<feFlood result="flood" flood-color="#52C4C8" flood-opacity="1"/>
+<feComposite in="flood" result="mask" in2="SourceGraphic" operator="in"/>
+<feMorphology in="mask" result="dilated" operator="dilate" radius="6"/>
+<feGaussianBlur in="dilated" result="blurred" stdDeviation="15"/>
+<feMerge>
+
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<path fill="url(#b)" d="M431 356H35c-19.33 0-35-15.67-35-35V35C0 15.67 15.67 0 35 0h396c19.33 0 35 15.67 35 35v286c0 19.33-15.67 35-35 35z"/>
+<path clip-path="url(#c)" fill="url(#d)" filter="url(#e)" d="M432.7-2H33.3C13.805-2-2 13.846-2 33.393v289.214C-2 342.154 13.805 358 33.3 358h399.4c19.496 0 35.3-15.846 35.3-35.393V33.393C468 13.846 452.195-2 432.7-2zm23.197 324.607c0 12.825-10.406 23.258-23.197 23.258H33.3c-12.791 0-23.197-10.433-23.197-23.258V33.393c0-12.825 10.406-23.258 23.197-23.258h399.4c12.791 0 23.197 10.434 23.197 23.258v289.214z"/>
+<path d="M397 302H69c-8.284 0-15-6.716-15-15V69c0-8.284 6.716-15 15-15h328c8.284 0 15 6.716 15 15v218c0 8.284-6.716 15-15 15z"/>
+<path d="M0 0h280v222H0z" filter="url(#f)" transform="rotate(-10 672.277 -377.997)" class="on"/>
+<path d="M0 0h280v222H0z" filter="url(#f)" transform="rotate(10 -282.132 683.497)" class="off"/>
+<path fill="url(#g)" d="M396 293H70a5 5 0 0 1-5-5V68a5 5 0 0 1 5-5h326a5 5 0 0 1 5 5v220a5 5 0 0 1-5 5z"/>
+<path opacity=".2" fill="url(#h)" d="M396 293H70a5 5 0 0 1-5-5V68a5 5 0 0 1 5-5h326a5 5 0 0 1 5 5v220a5 5 0 0 1-5 5z"/>
+<g class="on">
+<path fill="url(#i)" d="M396 293H126a5 5 0 0 1-5-5V68a5 5 0 0 1 5-5h270a5 5 0 0 1 5 5v220a5 5 0 0 1-5 5z"/>
+<path fill="url(#j)" d="M125 67h272v222H125z"/>
+<path fill="#52C4C8" filter="url(#k)" d="M341 125.5h26v105h-26z"/>
+</g>
+</svg>
