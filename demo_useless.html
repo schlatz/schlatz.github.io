@@ -82,8 +82,9 @@
 <feMorphology in="mask" result="dilated" operator="dilate" radius="6"/>
 <feGaussianBlur in="dilated" result="blurred" stdDeviation="15"/>
 <feMerge>
-<feMergeNode in="blurred"/>
+
 <feMergeNode in="SourceGraphic"/>
+<feMergeNode in="blurred"/>
 </feMerge>
 </filter>
 <path fill="url(#b)" d="M431 356H35c-19.33 0-35-15.67-35-35V35C0 15.67 15.67 0 35 0h396c19.33 0 35 15.67 35 35v286c0 19.33-15.67 35-35 35z"/>
