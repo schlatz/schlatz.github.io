@@ -1,0 +1,36 @@
+..text {
+background-color: #f5deb3;
+text-align:center;
+font-family: ariel;
+font-size: 11pt;
+font-weight:bold;
+color: #000080;
+}
+
+table.phonekeyboard {
+margin: 2em auto;
+font-family: arial, sans-serif;
+font-size: 1em;
+text-align:center;
+font-weight: bold;
+}
+
+table.phonekeyboard td {
+background-color: #eeeedd;
+
+width: 4em;
+height: 4em;
+}
+
+table.phonekeyboard td.dark {
+background-color: #b0c4de;
+}
+
+table.phonekeyboard td {
+background-color: #b0c4de;
+}
+
+table.phonekeyboard input {
+width:90%;
+height:90%;
+}
