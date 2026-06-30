@@ -1,0 +1,17 @@
+{
+  "lang": "de-de",
+  "name": "Waypoint projection",
+  "short_name": "Waypoint projection",
+  "description": "project a waypoint usidng bearing and distance",
+  "start_url": "./",
+  "background_color": "#2f3d58",
+  "theme_color": "#2f3d58",
+  "orientation": "any",
+  "display": "standalone",
+  "icons": [
+      {
+          "src": "./512x512.png",
+          "sizes": "512x512"
+      }
+  ]
+}

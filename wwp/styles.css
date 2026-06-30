@@ -1,0 +1,266 @@
+﻿/* Reset */
+html, body { 
+    margin:0; border:0; padding:0; background:transparent; font-size:12px; }
+
+div, span, article, aside, footer, header, hgroup, nav, section, p, h1, h2, h3, h4, h5, h6,
+blockquote, a, ol, ul, li, table, tr, th, td, tbody, tfoot, thead {
+	margin:0; 
+	padding:0; 
+	border:0; 
+	vertical-align:baseline; 
+	background:transparent; }
+	
+img { 
+    margin:0; padding:0; border:0; }
+    
+
+table, tr, th, td, tbody, tfoot, thead { 
+    margin:0; padding:0; border:0; 
+    vertical-align:baseline; 
+    background:transparent; }
+    
+article, aside, dialog, figure, footer, hgroup, header, nav, section { 
+    display:block; }
+    
+p, h1, h2, h3, h4, h5, h6, li, blockquote, td, th, a, caption, em, strong, strike {
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:100%;
+	font-weight:normal;
+	font-style:normal;
+	line-height:100%;
+	text-indent:0;
+	text-decoration:none;
+	text-align:left;
+	color:#000000; }
+
+ol, ul { 
+    list-style:none; }
+
+/* Global */
+html { }
+body { background-color:#eeeeee; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 { 
+    font-weight:bold; color:#000000; }
+    
+h1 { font-size:24px; }
+h2 { font-size:20px; }
+h3 { font-size:16px; }
+h4 { font-size:14px; }
+h5 { font-size:13px; }
+h6 { font-size:12px; }
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img { 
+    margin:0; }
+    
+/* Text elements */
+p           { color:#000000; font-size:12px; line-height:150%; }
+p .left     { margin: 1.5em 1.5em 1.5em 0; padding:0 }
+p .right    { margin: 1.5em 0 1.5em 1.5em; padding:0 }
+a           { color:#0000ff; text-decoration:underline; }
+
+/*
+a:link      { color:#0000ff; }
+a:visited   { color:#00ff00; }
+a:active    { color:#000000; }
+a:focus     { color:#666666; }
+a:hover     { color:#ff0000; }*/
+
+/* Lists */
+ul          {  }
+ol          { list-style-type:decimal; padding-left:20px; }
+
+ul li       { color:#000000; font-size:12px; }
+ol li       { color:#000000; font-size:12px; line-height:150%; }
+
+
+/* Containers */
+#wrapper           { width:950px; margin:0px auto; background-color:#a0a0ff; }
+
+#top               { width:100%; 
+                     background-color:#808080; 
+                     padding:10px 0px 10px 0px; 
+                     overflow:hidden; 
+                     height:20px; 
+                     clear:both; }
+#top p             { font-size:14px; 
+                     font-weight:bold; 
+                     text-align:center; 
+                     vertical-align:middle; }
+
+#topnav            { background-color:#333333; clear:both; overflow:hidden;  }
+#topnav ul         { width:100%; float:left; margin:0px; background-color:#333333; border-top:2px #d0d0d0 solid; }
+#topnav ul li      { display:inline; }
+#topnav ul li a    { float:left; padding:10px 20px 10px 20px; text-decoration:none; }
+#topnav ul li a:hover  { float:left; padding:10px 20px 10px 20px; text-decoration:underline; }
+
+#topnav a:visited  { color:#ffffff; }
+#topnav a:active   { color:#ffffff; }
+#topnav a:hover    { color:#ffffff; background-color:#FF0000; }
+#topnav a:focus    { color:#ffffff; }
+#topnav a:link     { color:#ffffff; }
+
+#sitevisual        { background-color:#666699; float:left; width:150px; }
+
+#leftnav              { background-color:#a0a0ff; float:left; width:144px;  clear:both; padding:15px 0 50px 6px; }
+#leftnav h1           { font-size:13px; padding:0 0 10px 0; font-weight:bold; }
+#leftnav h1 a         { font-size:13px; padding:0 0 10px 0; font-weight:bold; }
+
+#leftnav h1 a:visited { color:#000000; }
+#leftnav h1 a:active  { color:#000000; }
+#leftnav h1 a:hover   { color:#000000; text-decoration:underline; }
+#heftnav h1 a:focus   { color:#000000; }
+#leftnav h1 a:link    { color:#000000; }
+
+#leftnav p           { font-size:11px; font-weight:normal; padding:4px 0px 4px 5px; }
+#leftnav p a         { color:#000000; text-decoration:none; }
+#leftnav p a:visited { color:#000000; }
+#leftnav p a:active  { color:#000000;  }
+#leftnav p a:hover   { color:#000000; text-decoration:underline; }
+#leftnav p a:focus   { color:#000000; }
+#leftnav p a:link    { color:#000000; }
+
+#sliderimagearea     { margin-left:150px; margin-top:0px; background-color:#f0f0ff; padding:0 0 0 0; }
+
+#content             { margin-left:150px; margin-top:0px; background-color:#f0f0ff; padding:10px 10px 10px 10px; }
+#content h1          { color:#000; font-size:24px; padding:20px 0 10px 0;  }
+#content h2          { color:#000; font-size:20px; padding:15px 0 8px 0;  }
+#content h3          { color:#000; font-size:16px; padding:12px 0 6px 0;  }
+#content h4          { color:#000; font-size:14px; padding:8px 0 6px 3px;  }
+
+#content p           { font-size:13px; font-weight:normal; padding:4px 0px 4px 0px;  line-height:150%; }
+#content p strong    { font-weight:bold; }
+#content p em        { font-style:italic; }
+#content p strong em { font-style:italic; font-weight:bold; }
+#content p em strong { font-style:italic; font-weight:bold; }
+#content p img       { margin-right: 10px; margin-bottom: 10px; margin-left:10px; }
+
+#infobox             { float:none; clear:right; background-color:#d0d0d0; color:#ffffff; border:6px #808080 ridge; 
+                       padding:0 6px; margin: 8px 0px; }
+#infobox p           { font-size:12px; font-weight:normal; padding:4px; line-height:110%; color:#000040; }
+#infobox h1          { font-size:12px; font-weight:bold; text-decoration:underline; padding:5px 0px 2px 0px; }
+#infobox a           { margin:0px; }
+
+#linkbox             { float:none; clear:right; background-color:#000080; color:#ffffff; border:6px #808080 ridge; 
+                       padding:0 6px; margin: 15px 0px 20px 0px; }
+#linkbox h1          { font-size:12px; font-weight:bold; text-decoration:none; padding:5px 0px 2px 0px; color:#ffffff; }
+#linkbox p           { font-size:12px; font-weight:normal; padding:4px; line-height:110%; color:#d0d0d0; }
+#linkbox ul          { padding:0 0 0 15px; list-style-type:disc; }
+#linkbox ul li       { font-size:12px; font-weight:normal; padding:4px; line-height:110%; color:#d0d0d0; }
+#linkbox ul li a     { font-size:12px; font-style:italic; font-weight:bold; text-decoration:underline; 
+                       padding:4px; line-height:110%; color:#d0d0d0; }
+                       
+#bookbox             { float:none; clear:right; background-color:#ffffff; color:#000000; border:6px #808080 ridge; 
+                       padding:6px 6px; margin: 15px 0px 20px 0px;  }
+#bookbox h1          { font-size:13px; font-weight:bold; text-decoration:none; padding:5px 0px 2px 0px; color:#000000; }
+#bookbox h2          { font-size:13px; font-weight:normal; padding:4px; line-height:120%; color:#000000; margin-top:5px; }
+#bookbox p           { font-size:12px; font-weight:normal; padding:4px; line-height:120%; color:#000000; }
+
+	
+
+#coordbox            { background-color:#e0e0e0; color:#ffffff; border:6px #a0a0a0 ridge; padding:6px 6px; margin: 8px 0px; }
+#coordbox table      { border:1px #606060 solid; padding:0px; }
+#coordbox table th   { font-weight:bold; font-style:italic; font-size:13px; border:1px #a0a0a0 solid; padding:5px 3px; }
+#coordbox table tr   {  }
+#coordbox table tr td { font-size:12px; border:1px #a0a0a0 solid; padding:3px; }
+#coordbox table tr td a:hover { text-decoration:underline; }
+
+#picbox              { float:none; clear:right; background-color:#d0d0ff; color:#ffffff; 
+                       border:6px #808080 ridge; padding:3px 3px 5px 3px; margin: 8px 0px; }
+#picbox p            { font-size:12px; font-weight:normal; padding:4px; line-height:110%; color:#000040; }
+#picbox h1           { font-size:12px; font-weight:bold; text-decoration:none; padding:5px 5px 5px 5px; }
+#picbox img          { padding-bottom:3px; padding-left:2px; margin-top:1px; margin-left:2px; margin-right:2px; }
+
+#footer              { clear:both; width:100%; height:42px; background-color:#a0a0ff; padding:10px 0px; 
+                       font-size:12px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; 
+                       text-align:center; }
+#footer a:visited  { color:#000000; font-weight:bold; text-decoration:underline; }
+#footer a:active   { color:#000000; font-weight:bold; text-decoration:underline; }
+#footer a:hover    { color:#000000; font-weight:bold; text-decoration:underline; }
+#footer a:focus    { color:#000000; font-weight:bold; text-decoration:underline; }
+#footer a:link     { color:#000000; font-weight:bold; text-decoration:underline; }
+
+#navibox             { color:#ffffff; border:0px; padding:20px 6px; margin: 8px 0px 18px 0px;; }
+
+/* Styles für die GPS-Tools */
+#gpstoolsframe       { border:2px solid #000000; 
+                       padding:2px; margin:2px; 
+                       background:#d0d0ff;
+                       width:780px; 
+                       font-family:Arial, Helvetica, sans-serif;
+                       font-size:12px;
+                       font-weight:normal;
+                       overflow:auto; }
+                       
+#gpstoolsframe p     { background: #d0d0ff;
+                       padding: 5px 0 2px 2px;
+                       font-size:13px;
+                       line-height:100%;
+                       overflow:auto; }
+                       
+/* #gpstoolsrangeframe trennt Eingabebereich und Ausgabebereich direkt unterhalb von #gpstoolsframe */                       
+#gpstoolsrangeframe  { border:1px solid black; 
+                       padding:2px; 
+                       clear:both; 
+                       margin-top:2px;
+                       overflow:auto; }                    
+                       
+#gpstools            { background:#d0d0ff; 
+                       border:1px solid #000000; 
+                       margin: 1px;
+                       font-size:13px;
+                       padding:4px 0px 4px 5px; 
+                       overflow:auto; }
+                       
+#gpstools_nb         { background:#d0d0ff; 
+                       border:0px; 
+                       margin: 1px;
+                       font-size:13px;
+                       padding:4px 0px 4px 5px; 
+                       overflow:auto; }
+
+#gpstoolsresultline  { font-family:Arial, Helvetica, sans-serif;
+                       font-size:13px;
+                       font-weight:normal;
+                       padding:3px 0px 3px 3px; 
+                       clear:left;
+                       overflow:auto; 
+                       width:100%; }
+
+#gpstoolsreslinebold { font-family:Arial, Helvetica, sans-serif;
+                       font-size:13px;
+                       font-weight:bold;
+                       padding:3px 0px 3px 3px; 
+                       clear:left;
+                       overflow:auto; width:100%; }
+                       
+#kpr, #zielkoordmath, #zielkoorddez, #zielkoorddm, #zielkoorddms, #zielkoordutm, 
+#entfernung, #richtungswinkel, #kompassrichtung
+                     { font-family:Arial, Helvetica, sans-serif;
+                       font-size:13px;
+                       font-weight:bold;
+                       padding:3px 0px 3px 3px; }
+
+#quellkoord0, #quellkoord1, #quellkoord2, #quellkoord3, #quellkoord4, 
+#quellkoord5, #quellkoord6, #quellkoord7
+                     { background:#d0d0ff; 
+                       border:1px solid #000000; 
+                       margin: 1px;
+                       font-size:13px;
+                       padding:4px 0px 4px 5px; 
+                       overflow:auto; 
+                       float:left;
+                       height:200px;
+                       width:456px;
+                       display:inherit; }
+
+#imagelightbox
+{
+    position: fixed;
+    z-index: 9999;
+ 
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
