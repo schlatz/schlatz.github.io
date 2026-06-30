@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- #BeginTemplate "secnav_gps.dwt" -->
+
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+  <link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
+  <link rel="manifest" href="manifest.json">
+  
+<!-- #BeginEditable "doctitle" -->
+  <script type="text/javascript" src="mapfuncs.js"></script>
+
+  <title>Wegpunktprojektion</title>
+<!-- #EndEditable -->
+<!-- #BeginEditable "doctitle" -->
+<!-- #EndEditable -->
+
+</head>
+
+<body>
+  <!--div id="wrapper"-->
+  
+ 
+	  <!-- #BeginEditable "Slider" -->
+<!-- #EndEditable -->
+    
+    <div id="content">
+      
+      <h2>Wegpunktprojektion</h2>
+       
+      <form name="wpp">
+        <div id="gpstoolsframe">
+        
+          <!--<div style="border:1px solid black; padding:2px; clear:both; overflow:auto;">-->
+          <div id="gpstoolsrangeframe">
+          
+            <div id="gpstools" style="float:left; clear:both; width:378px;"><h4>Koordinaten des Startpunkts</h4></div>
+            
+            <div id="gpstools" style="float:left; width:378px;"><h4>Offset (Entfernung und Winkel)</h4></div>
+
+            <div id="gpstools" style="float:left; clear:both; width:378px;">
+              <div style="float:left; width:45%; paddding:2px;">
+                <p>Angabe in Dezimalgrad:</p>
+                <p><input type="text" name="wppkrddez" maxlength="20" style="width:150px; padding-left:2px;" value="N49.2 E8"/></p>
+                <p><input type="button" value="Eingabefeld löschen" onclick="document.wpp.wppkrddez.value=''" /></p>
+              </div>
+              <div style="float:left; width:10%; padding-top:15px; text-align:left; font-weight:bold; font-size:13px;">oder</div>
+              <div style="float:left; width:45%; paddding:2px;">
+                <p>Angabe in Grad + Minuten:</p>
+                <p><input value="" type="text" name="wppkrddm" maxlength="25" style="width:155px; padding-left:2px;" /></p>
+                <p><input type="button" value="Eingabefeld löschen" onclick="document.wpp.wppkrddm.value=''" /></p> 
+              </div>
+            </div>
+            
+            <div id="gpstools" style="float:left; width:378px;">
+              <div style="float:left; width:50%; paddding:2px;">
+                <p>Entfernung:</p>
+                <p><input type="text" name="entf" maxlength="10" style="width:100px; padding-left:2px;" value="0,1"/> km</p>
+                <p><input type="button" value="Eingabefeld löschen" onclick="document.wpp.entf.value=''" /></p>
+              </div>
+              <div style="float:left; width:50%; paddding:2px;">
+                <p>Richtungswinkel (0° bis 360°):</p>
+                <p><input value="235" type="text" name="richtung" maxlength="7" style="width:100px; padding-left:2px;" /> Grad</p>
+                <p><input type="button" value="Eingabefeld löschen" onclick="document.wpp.richtung.value=''" /></p> 
+              </div>
+            </div>
+          </div>
+
+          <div id="gpstoolsrangeframe">
+            <div style="text-align:center;">
+              <input type="button" value="Berechnung durchführen" style="width:95%; height:25px;" 
+                     onclick="projectWaypoint(document.wpp.wppkrddez.value, document.wpp.wppkrddm.value,
+                                              document.wpp.entf.value, document.wpp.richtung.value)" />
+            </div>
+          </div>
+          
+          <div id="gpstoolsrangeframe">
+            <div style="text-align:center;">
+              <h4>Ergebnis der Berechnung:</h4>
+            </div>
+            <div id="gpstoolsresultline" style="float:left; width:300px;">Richtungswinkel in &quot;Kompassnotation&quot;:</div>
+            <div id="kpr" >???</div>
+            <div id="gpstoolsresultline" style="float:left; width:300px;">Zielkoordinaten (Dezimalgrad):</div>
+            <button onClick="window.open('geo:' + zielkoorddez.textContent +'?q=' + zielkoorddez.textContent )">
+			<div id="zielkoorddez">??? </div></button>
+            <div id="gpstoolsresultline" style="float:left; width:300px;">Zielkoordinaten (Grad Minuten):</div>
+            <div style="padding-top:3px; padding-bottom:3px; font-weight:bold;" id="zielkoorddm">???</div>
+            <div id="gpstoolsresultline" style="float:left; width:300px;">Zielkoordinaten (Grad Minuten Sekunden):</div>
+            <div style="padding-top:3px; padding-bottom:3px; font-weight:bold;" id="zielkoorddms">???</div>
+            <div id="gpstoolsresultline" style="float:left; width:300px;">Zielkoordinaten (UTM-Format):</div>
+            <div style="padding-top:3px; padding-bottom:3px; font-weight:bold;" id="zielkoordutm">???</div>            
+          </div>
+
+        </div>
+      </form>
+ 
+      <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js', { scope: './' });
+      }
+      </script>      
+
+  <!-- /div -->
+
+</body>
+<!-- #EndTemplate -->
+</html>
